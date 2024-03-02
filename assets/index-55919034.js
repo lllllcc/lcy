@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vueexport-helper-c27b6911.js";import{e as o,o as s,h as t}from"./index-e73899b3.js";const n={name:"lose"},c={class:"In404"},a=t("p",null,"找不到网页，404",-1),r=[a];function _(u,d,i,p,l,f){return s(),o("div",c,r)}const x=e(n,[["render",_]]);export{x as default};
