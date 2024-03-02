@@ -31,7 +31,8 @@ export default defineConfig(
             rewrite: (path) => path.replace(/^\/api/, '') //路径重写，把/api换成空串
           }
         }
-      }
+      },
+      base: '/lcy/'
     }
   }
 )
