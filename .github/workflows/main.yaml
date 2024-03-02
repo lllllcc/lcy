@@ -31,8 +31,8 @@ jobs:
           pnpm build
       # 推送
       - name: 推送
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          token: ${{ secrets.TOKEN }}
+          branch: gh-pages
+          folder: dist
