@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -26,6 +26,7 @@ jobs:
       # 打包
       - name: 打包
         run: |
+          npm i -g pnpm
           pnpm i 
           pnpm build
       # 推送
