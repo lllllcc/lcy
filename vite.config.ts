@@ -34,7 +34,7 @@ export default defineConfig(
           }
         }
       },
-      base: '/lcy/',
+      // base: '/lcy/',
       build: {
         rollupOptions: {
           output: {
